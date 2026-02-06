@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -eux
+echo "Forçando rebuild e verificação do farmgym"
+python -c "import farmgym; print('farmgym instalado em:', farmgym.__file__)"
+pip show farmgym
