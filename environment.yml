@@ -1,0 +1,9 @@
+name: farmgym-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - gymnasium>=0.26.0
+    - git+https://github.com/farm-gym/farm-gym.git@main#egg=farmgym
